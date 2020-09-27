@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">
+    <meta name="HandHeldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="favicon_io (2)/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="favicon_io (2)/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/236b0bdf14.js"></script>
+</head>
+</body>
+<center>
+    <nav id="navigate">
+        <header id="heading">
+            <h3 id="AppName">ZendIt</h3>
+        </header>
+    </nav>
+    <br>
+    <br>
+    <center>
+        <button id="send"><i class="fa fa-send"></i>SEND</button>
+        <button id="receive"><i class="fa fa-download"></i> RECEIVE</button>
+    </center>
+    <br>
+    <div id="filelist">woah
+        <ul id="filesrec"></ul>
+    </div>
+    <br>
+    <div id="alert">
+        <div id="connectionText"></div>
+    </div>
+    <div id="progression">
+        <div id="load"></div>
+    </div>
+    <div id="sendAction">
+        <center>
+            <br><br>
+            <br>
+            <input type="file" name="upload" id="upload">
+            <button id="sendIt"><i class="fa fa-upload"></i> Send It</button>
+        </center>
+        <button id="closed"><span style="font-style: inherit; font-family: inherit; font-size: 15px;">&times;</span> Close</button>
+    </div>
+    <div id="receiveAction">
+        <center>
+            <br><br>
+            <br>
+            <input type="text" id="searches" name="searches" placeholder="Enter File Name">
+            <button id="search"><i class="fa fa-search"></i> Search</button>
+        </center>
+        <button id="close"><span style="font-style: inherit; font-family: inherit; font-size: 15px;">&times;</span>Close</button>
+    </div>
+    <br>
+</center>
+<script src="App.js"></script>
+</body>
+
+</html>

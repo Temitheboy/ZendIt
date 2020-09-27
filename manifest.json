@@ -1,0 +1,37 @@
+{
+    "name": "ZendIt",
+    "short_name": "Zend",
+    "version": "1",
+    "manifest_version": 2,
+    "author": "Olawoore Emmanuel Collins",
+    "developer": {
+        "name": "Olawoore Emmanuel Collins"
+    },
+    "description": "ZendIt facilitates P2P sharing and transfer between devices using a websocket server. Also an attempt to simulate popular XenderApp functionality and improvise it by supporting multiple senders and receivers at one go.
+    It also support App(Android) to Web / Mobile Browser transfers
+    if Receiver has no app installed.
+
+    Features
+    Files Transfers and sharing
+    Supports downloads on Browser
+    if Receivers has no app installed
+    Easy to implement
+    No permission Required
+    Simple Graphical User Interface ",
+    "icons": [{
+            "src": "favicon_io(2)/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon_io(2)/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "orientation": "portrait",
+    "permission": ["downloads", "theme", "background"],
+    "background_color": "#04002A",
+    "start_url": "Index.html"
+}
